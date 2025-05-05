@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>User Directory</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+
+  <body class="bg-gray-100 min-h-screen flex flex-col items-center px-4 py-8">
+    <h1 class="text-3xl font-bold mb-6">User Directory 👥</h1>
+ 
+    <input
+      id="search"
+      type="text"
+      placeholder="Search by name or job..."
+      class="w-full max-w-md px-4 py-2 border border-gray-300 rounded-lg mb-6 focus:outline-none focus:ring-2 focus:ring-blue-500"
+    />
+
+    <div id="user-list" class="w-full max-w-2xl space-y-4"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
