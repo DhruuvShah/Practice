@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Calculator App</title>
+</head>
+<body class="flex flex-col items-center bg-pink-100 h-screen justify-center">
+    <h1 class="mb-8 text-5xl text-purple-900 font-semibold animate-pulse">Modern Calculator</h1>
+    <div id="calculator" class="p-6 w-70 bg-purple-300 rounded-xl shadow-md">
+        <input id="display" class="w-full h-12 bg-purple-100 text-right text-purple-900 rounded-md p-4 text-2xl font-semibold" value="0" disabled>
+        <div class="mt-4 grid grid-cols-4 gap-3">
+            <button class="bg-purple-100 rounded-full p-3 text-lg font-semibold shadow-md hover:bg-purple-600 hover:text-white">AC</button>
+            <button class="bg-purple-100 rounded-full p-3 text-lg font-semibold shadow-md hover:bg-purple-600 hover:text-white">+/-</button>
+            <button class="bg-purple-100 rounded-full p-3 text-lg font-semibold shadow-md hover:bg-purple-600 hover:text-white">%</button>
+            <button class="bg-purple-100 rounded-full p-3 text-lg font-semibold shadow-md hover:bg-purple-600 hover:text-white">/</button>
+            <button class="bg-purple-100 rounded-full p-3 text-lg font-semibold shadow-md hover:bg-purple-600 hover:text-white">7</button>
+            <button class="bg-purple-100 rounded-full p-3 text-lg font-semibold shadow-md hover:bg-purple-600 hover:text-white">8</button>
+            <button class="bg-purple-100 rounded-full p-3 text-lg font-semibold shadow-md hover:bg-purple-600 hover:text-white">9</button>
+            <button class="bg-purple-100 rounded-full p-3 text-lg font-semibold shadow-md hover:bg-purple-600 hover:text-white">*</button>
+            <button class="bg-purple-100 rounded-full p-3 text-lg font-semibold shadow-md hover:bg-purple-600 hover:text-white">4</button>
+            <button class="bg-purple-100 rounded-full p-3 text-lg font-semibold shadow-md hover:bg-purple-600 hover:text-white">5</button>
+            <button class="bg-purple-100 rounded-full p-3 text-lg font-semibold shadow-md hover:bg-purple-600 hover:text-white">6</button>
+            <button class="bg-purple-100 rounded-full p-3 text-lg font-semibold shadow-md hover:bg-purple-600 hover:text-white">-</button>
+            <button class="bg-purple-100 rounded-full p-3 text-lg font-semibold shadow-md hover:bg-purple-600 hover:text-white">1</button>
+            <button class="bg-purple-100 rounded-full p-3 text-lg font-semibold shadow-md hover:bg-purple-600 hover:text-white">2</button>
+            <button class="bg-purple-100 rounded-full p-3 text-lg font-semibold shadow-md hover:bg-purple-600 hover:text-white">3</button>
+            <button class="bg-purple-100 rounded-full p-3 text-lg font-semibold shadow-md hover:bg-purple-600 hover:text-white">+</button>
+            <button class="bg-purple-100 rounded-full p-3 text-lg font-semibold col-span-2 shadow-md hover:bg-purple-600 hover:text-white">0</button>
+            <button class="bg-purple-100 rounded-full p-3 text-lg font-semibold shadow-md hover:bg-purple-600 hover:text-white">.</button>
+            <button class="bg-purple-100 rounded-full p-3 text-lg font-semibold shadow-md hover:bg-purple-600 hover:text-white">=</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
