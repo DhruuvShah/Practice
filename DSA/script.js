@@ -1,4 +1,4 @@
-// 1. Movie Rating
+// 1. Movie Rating.
 
 // let rating = Number(prompt('Enter the rating of movie'));
 // let movie = prompt('Enter the movie name');
@@ -16,14 +16,69 @@
 //     console.log(`${movie} is Super Hit movie`)
 // }
 
-// 2. Profile based program
+// 2. Profile based program.
 
-let gender = prompt('Enter you gender');
-let service = Number('Enter year of service');
-let qualification = prompt('Enter you qualification')
+// let gender = prompt('Enter you gender');
+// let service = Number(prompt('Enter number of service'));
+// let qualification = prompt('Enter you qualification');
 
-if(male){
-   if(service >= 10 && qualification ){
+// if (gender == 'Male') {
+//    if (service >= 10 && qualification === 'Post-Graduate') {
+//       console.log(`Gender: ${gender}`);
+//       console.log(`Qualification: ${qualification}`);
+//       console.log(`Salary : 15000`);
+//    }
+//    else if (service >= 10 && qualification === 'Graduate') {
+//       console.log(`Gender: ${gender}`);
+//       console.log(`Qualification: ${qualification}`);
+//       console.log(`Salary : 10000`);
+//    }
+//    else if (service < 10 && qualification === 'Post-Graduate') {
+//       console.log(`Gender: ${gender}`);
+//       console.log(`Qualification: ${qualification}`);
+//       console.log(`Salary : 10000`);
+//    }
+//    else if (service < 10 && qualification === 'Graduate') {
+//       console.log(`Gender: ${gender}`);
+//       console.log(`Qualification: ${qualification}`);
+//       console.log(`Salary : 7000`);
+//    }
+// }
+// else if (gender == 'Female') {
+//    if (service >= 10 && qualification === 'Post-Graduate') {
+//       console.log(`Gender: ${gender}`);
+//       console.log(`Qualification: ${qualification}`);
+//       console.log(`Salary : 12000`);
+//    }
+//    else if (service >= 10 && qualification === 'Graduate') {
+//       console.log(`Gender: ${gender}`);
+//       console.log(`Qualification: ${qualification}`);
+//       console.log(`Salary : 9000`);
+//    }
+//    else if (service < 10 && qualification === 'Post-Graduate') {
+//       console.log(`Gender: ${gender}`);
+//       console.log(`Qualification: ${qualification}`);
+//       console.log(`Salary : 10000`);
+//    }
+//    else if (service < 10 && qualification === 'Graduate') {
+//       console.log(`Gender: ${gender}`);
+//       console.log(`Qualification: ${qualification}`);
+//       console.log(`Salary : 6000`);
+//    }
+// }
 
-   }
-}
+// 3. Accept an english alphabet from user and check if it is a consonant or a vowel.
+
+// let alphabet = prompt('Enter any english alphabet');
+
+// if(alphabet == 'a' || alphabet == 'e' || alphabet =='i' || alphabet =='o' || alphabet =='u' || alphabet == 'A' || alphabet =='E' || alphabet =='I' || alphabet =='O' || alphabet =='U'){
+//    console.log(`Alphabet ${alphabet} is vowel`)
+// }
+// else{
+//    console.log(`Alphabet ${alphabet} is consonant`);
+// }
+
+// 4. ISBN number.
+
+
+
