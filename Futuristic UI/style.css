@@ -1,0 +1,85 @@
+@font-face {
+  font-family: Porter;
+  font-weight: 200;
+  src: url("./fonts/PorterFT-Light.ttf");
+}
+
+@font-face {
+  font-family: Porter;
+  font-weight: 500;
+  src: url("./fonts/PorterFTRound-Regular.ttf");
+}
+
+@font-face {
+  font-family: Porter;
+  font-weight: 700;
+  src: url("./fonts/PorterFT-Bold.ttf");
+}
+
+* {
+  font-family: Porter;
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.marquee-wrapper {
+  display: flex;
+  overflow: hidden;
+  white-space: nowrap;
+  mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);
+}
+
+.marquee-content {
+  display: flex;
+  animation: scroll-left 25s linear infinite;
+  will-change: transform;
+  backface-visibility: hidden;
+}
+
+
+.image-card-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.mask-l-from-2 {
+  -webkit-mask-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 1) 20%
+  );
+  mask-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 1) 20%
+  );
+}
+
+.mask-r-from-2 {
+  -webkit-mask-image: linear-gradient(
+    to left,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 1) 20%
+  );
+  mask-image: linear-gradient(
+    to left,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 1) 20%
+  );
+}
+
+.center-card-wrapper {
+  position: relative;
+  z-index: 10;
+}
+
+
+
+
